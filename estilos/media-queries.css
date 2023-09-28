@@ -23,7 +23,7 @@ Grandes telas: acima de 1200px
         float: left;
         width: 35%;
         height: 100%;
-        background-image: url(../imagens/dota1.jpg);
+        background-image: url(../imagens/jhin.jpg);
         background-position:center center;
     }
 
@@ -42,7 +42,7 @@ Grandes telas: acima de 1200px
         float: left;
         width: 50%;
         height: 100%;
-        background-image: url(../imagens/jhin.jpg);
+        background-image: url(../imagens/dota1.jpg);
         background-position:top center;
     }
 
@@ -50,4 +50,14 @@ Grandes telas: acima de 1200px
         float: right;
         width: 50%;
     }
+
+    div#formulario > h1{
+        font-size: 3em;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
+    }
 }
+
+    
