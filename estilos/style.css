@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+/*Paleta do style
+Verde:#49a09d
+Lilás:#5f2c82
+
+*/
+
+:root{
+    --font-bebas:'Bebas Neue', sans-serif;
+}
+*{
+    font-family:var(--font-bebas) ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body, html{
+    background-image: linear-gradient(to top, black, rgb(15, 3, 3));
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login{
+    background-color: black;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.315);
+    border: 1px solid rgb(156, 156, 156);
+    transition: width 2s, height 2s;
+    transition-timing-function: ease;
+
+}
+
+section#login > div#imagem{
+    background: #000000 url(../imagens/captainMarvel.jpg) no-repeat;  
+    height: 200px;  
+    background-size:cover ;
+    background-position: center center;
+    display: block;
+}
+
+section#login > div#formulario{
+    padding: 10px;
+    display: block;
+}
